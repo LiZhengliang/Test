@@ -1,0 +1,33 @@
+git init 			//在当前目录创建版本库 
+git add 文件名			//添加文件，只是到暂存区
+git commit -m "本次提交的说明"	//提交到版本库，进入当前分支
+git status			//查看仓库当前状态
+git diff 文件名			//查看工作区和版本库暂存区的不同
+git diff HEAD 文件名		//查看工作区和版本库分支的不同
+git log				//查看提交历史
+git reflog			//查看命令历史
+git reset --hard HEAD^		//回退到上一个版本
+git reset --hard HEAD~10	//回退到上数第十个版本
+git reset --hard 3628164	//回退到指定提交ID(可不全)的版本
+cat 文件名			//查看文件
+git checkout -- 文件名		//回到最近一次add或commit的状态
+git rm 文件名			//删除文件
+
+
+
+$ ssh-keygen -t rsa -C "youremail@example.com"
+$ git remote add origin git@github.com:michaelliao/learngit.git
+$ git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
